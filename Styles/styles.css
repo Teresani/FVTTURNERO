@@ -11,6 +11,8 @@ body {
 }
 
 .turnero-box {
+    position: relative;
+    left: 450px;
     background-color: #5d8aa8;
     padding: 25px;
     border-radius: 15px;

@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 footer {
     position: relative;
-    /*top: 50vh;*/
+    width: 900px;
+    left: -200px;
 
 }
-
 /*:::::Pie de Pagina*/
 .pie-pagina{
     width: 100%;
