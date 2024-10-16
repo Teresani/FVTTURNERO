@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.turnero-box {
+    background-color: #5d8aa8;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.turnero-box h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.turnero-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.turnero-box input[type="text"], .turnero-box input[type="date"], .turnero-box input[type="time"] {
+    background-color: #eaeaea;
+}
+
+.turnero-box button {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.turnero-box button:hover {
+    background-color: #2d4373;
+}
+
+/* Fondo similar al diseño */
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, #7fa6c4 30%, #4b779d 70%);
+    z-index: -1;
+}
