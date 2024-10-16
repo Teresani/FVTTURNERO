@@ -3,7 +3,13 @@
 footer {
     position: relative;
     width: 900px;
-    left: -200px;
+    left: 0px;
+    background-color: #f8f9fa; /* Color de fondo del footer */
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: relative; /* Para evitar superposición */
+    bottom: 0; /* Siempre pegado al final */
 
 }
 /*:::::Pie de Pagina*/
