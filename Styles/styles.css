@@ -5,21 +5,21 @@ body {
     flex-direction: column;
     height: 100vh;
     background-color: #f3f3f3;
-    background-image: url(../resized_image.png); /* Asegúrate de que la ruta sea correcta */
-    background-size: cover; /* Hace que la imagen cubra todo el fondo */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-image: url(../resized_image.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 main {
     flex-grow: 1;
     display: flex;
-    justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .turnero-box {
-    background-color: rgba(93, 138, 168, 0.8); /* Color de fondo con algo de transparencia */
+    background-color: rgba(93, 138, 168, 0.8); 
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -31,14 +31,14 @@ main {
 
 h2 {
     font-size: 30px;
-    color: white; /* Asegúrate de que el color del texto sea visible */
+    color: white; 
 }
 
 .turnero-box h2 {
     position: relative;
     top: -5px;
     left: -5px;
-    font-weight: 600; /* Cambié de 40px a 600 para que se vea más robusto */
+    font-weight: 600; 
     color: white;
 }
 
