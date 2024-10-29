@@ -1,79 +1,91 @@
-
 body {
-    
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #f3f3f3;
-    background-image: url(../fondito.webp);
     height: 100%;
-    margin: 0;
-    display: flex;
     flex-direction: column;
 }
+
 main {
-    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
+
 .turnero-box {
-    position: relative;
-    left: 0px;
     background-color: #5d8aa8;
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 350px;
-    height: 500px;
+    width: 100%;
+    max-width: 500px; /* Ancho máximo para grandes pantallas */
     text-align: center;
-    align-items: center;
-    margin: 40px;
+    margin: 20px;
 }
-h2 {
-    font-size: 30px;
 
-
-}
 .turnero-box h2 {
-    position: relative;
-    top: -5px;
-    left: -5px;
-    font-weight: 40px;
+    font-size: 30px;
     color: white;
+    margin-bottom: 20px;
 }
 
 .turnero-box input {
-    width: 330px;
-    height: 25px;
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
     padding: 10px;
     margin: 10px 0;
     border: none;
     border-radius: 5px;
-}
-
-.turnero-box input[type="text"], .turnero-box input[type="date"], .turnero-box input[type="time"] {
     background-color: #eaeaea;
-    
 }
 
 .turnero-box button {
-    position: relative;
-    top: 25px;
     background-color: #3b5998;
     color: white;
     padding: 10px;
-    width: 280px;
+    width: 100%;
+    max-width: 400px;
     height: 50px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 15px;
+    margin-top: 15px;
 }
 
 .turnero-box button:hover {
     background-color: #2d4373;
 }
 
+/* Responsive Design para pantallas pequeñas */
+@media (max-width: 768px) {
+    .turnero-box {
+        width: 90%;
+    }
 
+    .turnero-box h2 {
+        font-size: 24px;
+    }
+
+    .turnero-box input, .turnero-box button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .turnero-box {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .turnero-box h2 {
+        font-size: 20px;
+    }
+}
